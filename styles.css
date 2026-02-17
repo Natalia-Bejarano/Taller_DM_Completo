@@ -192,10 +192,10 @@ body {
     color: var(--very-light-pink);
 }
 
-/* este empieza a ser menú destokp */
+/* este empieza a ser menú desktop */
 
 .container-ul {
-    padding: 13px;
+    padding: 12px;
     text-align: right;
     border-radius: 8px;
     width: 120px;
@@ -213,7 +213,7 @@ body {
 }
 
 ul{
-    padding: 15px;
+    padding: 10px;
     margin: 0;
     list-style: none;
 }
@@ -222,6 +222,9 @@ ul{
  text-decoration: none;
  color: var(--black);
  
+}
+.container-ul .adios {
+    padding: 20px;
 }
 
 .linea-horizontal {
@@ -270,10 +273,6 @@ ul{
 .salir {
     font-weight: bold;
 }
-
-
-
-
 
 /*los media los pongo acá para que primero lea que la página es responsive xd*/
 @media (max-width: 640px){
